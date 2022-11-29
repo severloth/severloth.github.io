@@ -86,28 +86,28 @@ function controlar(elem){
 
             sumarAcierto();
             
-            setTimeout(cambiarPregunta,3000);
+            setTimeout(cambiarPregunta,2000);
         }
         else{
             cambiarColorRojo(elem.parentNode);
 
-            setTimeout(cambiarPregunta, 3000);
+            setTimeout(cambiarPregunta, 2000);
         }
         
     }
 
     if (preguntaActual.textContent == listaPreguntas[1]) {
         if (elem.textContent == respuestasPos1[1]){
-            cambiarColorVerde(pelem.parentNode);
+            cambiarColorVerde(elem.parentNode);
 
             sumarAcierto();
             
-            setTimeout(cambiarPregunta,3000);
+            setTimeout(cambiarPregunta,2000);
         }
         else{
             cambiarColorRojo(elem.parentNode);
 
-            setTimeout(cambiarPregunta, 3000);
+            setTimeout(cambiarPregunta, 2000);
         }
         
     }
@@ -118,12 +118,12 @@ function controlar(elem){
 
             sumarAcierto();
             
-            setTimeout(cambiarPregunta,3000);
+            setTimeout(cambiarPregunta,2000);
         }
         else{
             cambiarColorRojo(elem.parentNode);
 
-            setTimeout(cambiarPregunta, 3000);
+            setTimeout(cambiarPregunta, 2000);
         }
         
     }
