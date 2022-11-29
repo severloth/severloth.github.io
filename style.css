@@ -1,0 +1,64 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#pregunta{
+    background-color: red;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pregunta h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#respuestaUno, #respuestaDos, #respuestaTres{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5rem;
+    transition: 0.3s;
+}
+
+#respuestaUno h2, #respuestaDos h2, #respuestaTres h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+#aciertos{
+    width: 50%;
+    float: left;
+    background-color: white;
+    border: 1px solid;
+    border-color: red;
+    border-radius:50px;    
+    height: 300px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+}
+
+#aciertosString{
+    margin-left: -90px;
+}
+
+#aciertosNum{
+    margin-left: 20px;
+}
