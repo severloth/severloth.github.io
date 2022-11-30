@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <script src="main.js"></script>
+
+    <title>Juego</title>
+</head>
+<body>
+
+<div id="pregunta">
+    <h2 id="preg" onclick="cambiarPregunta()">EMPEZAR A JUGAR</h2>
+</div>
+
+<div id="respuestaUno" onclick="controlar(rta1)">
+    <h2 id="rta1"></h2>
+</div>
+
+<div id="respuestaDos" onclick="controlar(rta2)">
+    <h2 id="rta2"></h2>
+</div>
+
+<div id="respuestaTres" onclick="controlar(rta3)">
+    <h2 id="rta3"></h2>
+</div>
+
+<div id="aciertos">
+    <h2 id="aciertosString">Aciertos:  <span id="aciertosNum">0</span></h2>
+   
+</div>
+
+
+<div id="barraProgreso">
+    <div id="progreso"></div>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html> 
